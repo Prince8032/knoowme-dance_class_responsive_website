@@ -1,0 +1,229 @@
+/* navbar */
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+#navbar{
+    display: flex;
+    flex-direction: row;
+    position: sticky;
+}
+#navbar::before{
+    content: "";
+    position: absolute;
+    background-color: black;    
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    opacity: 0.4;
+}
+#logo img{
+    height: 50px;
+    width: 50px;
+    margin: 4px;
+}
+#navbar ul{
+    display: flex;
+}
+#navbar ul li{
+    list-style: none;
+    margin: 21px 40px;
+}
+#navbar ul li a{
+    text-decoration: none;
+    color: white;
+    
+}
+#navbar ul li a:hover{
+    color: black;
+    background: #4cc2ea;
+    border-radius: 3px;
+    padding: 4px;
+}
+
+/* home */
+    
+#home{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 4px 6px;
+    height: 323px;
+}
+#home::before{
+    content: "";
+    position: absolute;
+    background: url('../img/teahub.io-dance-wallpaper-hd-408047.png') center/cover;
+    width: 100%;
+    height: 392px;
+    top: 0%;
+    left: 0%;
+    z-index: -1;
+    opacity: 0.9;
+}
+#home h1{
+    text-align: center;
+    color: white;
+    text-shadow: 2px 2px black;
+}
+#home p{
+    text-align: center;
+    color: white;
+    text-shadow: 1px 1px black;
+    font-size: 0.9rem;
+    font-weight: bold;   
+}
+#home button{
+    margin: 12px 13px;
+    border: 1px solid black;
+    cursor: pointer;
+    color: black;
+    background-color:#4cc2ea;
+}
+/* utlity class */
+
+.h-primary{
+     font-size: 2.8rem;
+     padding: 13px;
+     text-shadow: 1px 1px rgb(167 157 157);
+}
+.btn{
+    font-size: 0.8rem;
+    padding: 2px 15px;
+    border-radius: 4px;
+}
+.center{
+    text-align: center;
+}
+.h-secondary{
+    font-size: 1.9rem;
+    margin: 6px;
+}
+
+
+/* services */
+#services{
+  margin: 24px;    
+  display: flex;
+}
+#services .box img{
+    display: block;
+    height: 125px;
+    padding: 6px;
+    margin: auto;
+}
+#services .box{
+    border: 2px solid red;
+    margin: 0px 20px;    
+    border-radius: 10px;
+    padding: 30px;
+    background-color:#eceded;
+}
+
+
+/* our platform */
+
+.client-item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#client-section{
+    position: relative;
+}
+#client-section::before{
+    content: "";
+    position: absolute;
+    background: url('../img/girl\ hip_hop.jpg') no-repeat center center/cover;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    opacity: 0.4;
+}
+#client-section h1{
+    font-weight: bold;
+   
+}
+/* clientsection image part */
+#client-section{
+    display: flex;
+    flex-direction: column;
+}
+.client-item img{
+    height: 110px;
+    padding: 15px 30px;
+    margin: 0px 40px;
+}
+#client-section .ytube{
+    height: 65px;
+    width: 95px;
+}
+#client-section .whatsapp{
+    height: 85px;
+   
+}
+#client-section .instagram{
+    height: 70px;
+}
+#client-section .facebook{
+    height: 68px;
+}
+
+/* contact us */
+#contact-us{
+    position: relative;
+}
+
+#contact-us::before{
+    content: "";
+    position: absolute;
+    background: url('../img/Contact-us-Main-Banner-1-1536x480.jpg') center/cover;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.9;
+}
+
+#contact-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 30px;
+}
+#contact-box form{
+    width: 40%;
+}
+#contact-box label{
+    font-size: 1.0rem;
+}
+#contact-us input,
+#contact-us textarea{
+    width: 100%;
+    padding: 0.2rem;
+    font-size: 0.7rem;
+    border-radius: 4px;
+    background-color: #e8e8e8;
+    border: 2px solid black;
+}
+#contact-us button{
+    padding: 2px 5px;
+    display: block;
+    width: 85px;
+    height: 23px;
+    margin: auto;
+    font-size: 0.75rem;
+}
+
+
+footer{
+    color: white;
+    background-color: black;
+    padding: 3px 6px;
+    font-size: 0.9rem;
+}

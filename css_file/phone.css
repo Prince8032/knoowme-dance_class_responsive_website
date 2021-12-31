@@ -1,0 +1,95 @@
+body{
+    background-color: rgb(255, 255, 255);
+}
+/* navigation */
+#navbar{
+    justify-content: center;
+    align-items: center;
+}
+#navbar ul li{
+    margin: 15px 13px;
+    font-size: 0.65rem;
+}
+
+#logo img{
+    height: 1.6rem;
+    width: 1.9rem;
+    margin-right: 20px;
+}
+/* utility */
+.h-primary{
+    font-size: 1.8rem;
+    padding: 7px 7px;
+}
+.h-secondary{
+    font-size: 1.3rem;
+}
+.btn{
+    font-size: 0.55rem;
+}
+
+/* home */
+#home{
+    height: 266px;
+}
+#home::before{
+    height: 317px;
+}
+#home p{
+    font-size: 0.6rem;
+    padding: 0px;
+    margin: 0px;
+}
+#home h1{
+    font-size: 1.0rem;
+    text-shadow: 1px 1px black;
+}
+/* services */
+#services{
+    flex-direction: column;
+    margin: 3px;
+}
+#services .box{
+    margin: 5px 5px;
+}
+#services .box p{
+    font-size: 0.8rem;
+}
+
+/* client section */
+.client-item{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.client-item img{
+    height: 2.5rem;
+    padding: 15px 30px;
+    margin: 4px;
+}
+#client-section .ytube{
+    height: 2.5rem; 
+    width: 2.6rem;
+}
+#client-section .whatsapp{
+    height: 2.5rem;
+   
+}
+#client-section .instagram{
+    height: 2.5rem;
+}
+#client-section .facebook{
+    height: 2.5rem;
+}
+
+/* contact us */
+#contact-box form{
+    width: 80%;
+}
+#contact-box button{
+    font-size: 0.75rem;
+}
+/* fotter */
+footer{
+    font-size: 0.75rem;
+}
